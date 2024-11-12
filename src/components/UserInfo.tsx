@@ -41,12 +41,12 @@ export default function UserInfo() {
         </div>
          
        
-        <button
+        {/* <button
           onClick={() => router.push("/add")}
           className="bg-transparent hover:bg-blue-500 text-black  font-semibold hover:text-white border border-orange-500 hover:border-transparent rounded px-6 py-2 mt-3"
         >
           Create User
-        </button>
+        </button> */}
         <button
           onClick={handleLogout}
           className="bg-red-500 text-black  border-black  rounded-lg font-bold px-6 py-2 mt-3"
